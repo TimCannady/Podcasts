@@ -1,0 +1,214 @@
+/*header div*/
+#header{
+	font-size: 45px; 
+	font-family:  "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	color: #FFFFFF;
+	padding-left: 20px;
+	border-radius: 10px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background-color: #FF6600;
+	width: 96.9%;
+	height: 10%;
+	margin: 10px;
+	display: table-cell;
+}
+/*for header copy*/
+.head{
+	position: relative;
+	display: table-cell;
+	vertical-align: middle;
+	padding-top: 8px;
+}
+/*right div*/	
+.right{
+	border-radius: 10px;
+	border-top:13px solid #FF8000;
+	border-bottom:13px solid #FF8000;
+	background-color: #FF8000;
+	width: 82%;
+	height: 79.5%;
+	float: right;
+	right: 0;
+	top: 75px;
+	position: fixed;
+	margin: 10px;
+	margin-top: 18px;
+	overflow: scroll;
+}
+/*formats right div's text*/
+.set{
+	font-size:11px;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	color: #FFFFFF;
+	padding-left: 25px;
+}
+/*left div*/
+.lefttop{
+	border-radius: 10px;
+	background-color: #FF8000;
+	width: 13%;
+ 	height: 37.5%;
+	float: left;
+	left:0px;
+	top: 75px ;
+	position: fixed;
+	margin-left: 10px;
+	margin-top: 18px;	
+	padding: 15px;
+	display: table-cell;
+}
+/*.fhdh:hover span{
+	display: none;	
+}
+.fhdh:hover:before{
+	font-size:10px;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	color: #FFFFFF;
+	content: "Future House Distillery Hour: chilled out, soulful deep house"
+}*/
+.leftbottom{
+	border-top:4px solid #FF8000;
+	border-radius: 10px;
+	background-color: #FF8000;
+	width: 13%;
+	height: 38.5%;
+	float: left;
+	left:0px;
+	bottom: 21px ;
+	position: fixed;
+	margin-left: 10px;	
+	padding-left: 15px;
+	padding-bototm:15px;
+	padding-right: 15px;
+	display: table-cell;
+}
+/*for left divs writing at the top*/
+.fhdh{
+	font-size: 20px; 
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	color: #FFFFFF;
+	display: table-cell;
+	vertical-align: middle;
+	display: block;
+	text-align: center;
+}
+.dss{
+	font-size: 20px; 
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	color: #FFFFFF;
+	display: table-cell;
+	vertical-align: middle;
+	display: block;
+	text-align: center;
+}
+.tc10{
+	font-size: 20px; 
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	color: #FFFFFF;
+	display: table-cell;
+	vertical-align: middle;
+	display: block;
+	text-align: center;
+}
+
+.about{
+    height: 200px;
+    font-size: 12px;
+    color: #FFFFFF;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    vertical-align:top;
+    display:inline-block;
+    width: 158px;
+    overflow: scroll;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 3px;
+}
+/*to get the left div social images to the bottom*/
+.navbottom{
+	bottom: 28px;
+	position: fixed;
+	letter-spacing: 20px;
+	padding-left: 4px;
+}
+/*to set the left div social image sizes*/
+/*.navimages{
+	height: 20px;
+	width: 20px;
+}*/
+
+#twitternav {
+background: url(file://localhost/Users/Tim/Desktop/Tims%20Website/Images/white-triangle-white-md1.png) no-repeat;
+background-size: 20px;
+height: 20px;
+width: 20px;
+display: inline-block;
+}
+#twitternav:hover {
+background: url(file://localhost/Users/Tim/Desktop/Tims%20Website/Images/twitter-bird-white.svg)  no-repeat;
+background-size: 20px;
+height: 20px;
+width: 20px;
+}
+
+	#scnav {
+	background: url(file://localhost/Users/Tim/Desktop/Tims%20Website/Images/white-triangle-white-md1.png) no-repeat;
+	background-size: 20px;
+	height: 20px;
+	width: 20px;
+	display: inline-block;
+	}
+	#scnav:hover {
+	background: url(file://localhost/Users/Tim/Desktop/Tims%20Website/Images/soundcloud_logo_css_by_timpietrusky.jpg)  no-repeat;
+	background-size: 20px;
+	height: 20px;
+	width: 20px;
+	}
+	
+#linav {
+background: url(file://localhost/Users/Tim/Desktop/Tims%20Website/Images/white-triangle-white-md1.png) no-repeat;
+background-size: 20px;
+height: 20px;
+width: 20px;
+display: inline-block;
+}
+#linav:hover {
+background: url(file://localhost/Users/Tim/Desktop/Tims%20Website/Images/mnml-white-linkedin-icon-26240.png)  no-repeat;
+background-size: 20px;
+height: 20px;
+width: 20px;
+}	
+
+	#randonav {
+	background: url(file://localhost/Users/Tim/Desktop/Tims%20Website/Images/white-triangle-white-md1.png) no-repeat;
+	background-size: 20px;
+	height: 20px;
+	width: 20px;
+	display: inline-block;
+	}
+	#randonav:hover {
+	background: url(file://localhost/Users/Tim/Desktop/Tims%20Website/Images/white-triangle-white-md1.png)  no-repeat;
+background-size: 20px;
+height: 20px;
+width: 20px;	
+	}	
+
+
+
+/*to set header div text size*/
+.headimages{
+	height: 30px;
+	width: 30px;
+}
+/*<hr> styling*/
+hr.faded{
+	border: 0;
+	width:75%;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255,255.75), rgba(255,255,255,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255,255.75), rgba(255,255,255,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255,255.75), rgba(255,255,255,0)); 
+    background-image:      -o-linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255,255.75), rgba(255,255,255,0)); 
+}
